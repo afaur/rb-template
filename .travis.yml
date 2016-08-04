@@ -6,6 +6,6 @@ branches:
   only:
     - master
 before_script:
-  - export TEST=test
+  - export EXAMPLE_KEY=example_value
 script:
-  - bundle exec rake test
+  - bundle exec rake tests
