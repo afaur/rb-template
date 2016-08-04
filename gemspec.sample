@@ -1,0 +1,22 @@
+$:.push File.expand_path("../lib", __FILE__)
+#require '/version'
+
+Gem::Specification.new do |s|
+  s.name        = ''
+  s.version     = ::VERSION
+  s.platform    = Gem::Platform::RUBY
+  s.summary     = ''
+  s.description = ''
+
+  s.author = ''
+  s.email = ''
+
+  s.required_ruby_version = '2.1.0'
+  s.required_rubygems_version = '>= 2'
+  s.require_path = 'lib'
+
+  s.add_development_dependency('rake')
+  s.add_development_dependency('minitest')
+  s.add_development_dependency('cucumber')
+  s.add_development_dependency('pry-byebug')
+end

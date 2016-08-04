@@ -1,0 +1,11 @@
+Given(/^I have "([^"]*)"$/) do |rule|
+  @rule = rule
+end
+
+When(/^starting `([^`]*)`$/) do |cmd|
+  @response = ``
+end
+
+Then(/^output should match "([^"]*)"$/) do |output|
+  assert_equal(output, @response.strip)
+end

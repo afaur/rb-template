@@ -1,0 +1,11 @@
+language: ruby
+cache: bundler
+rvm:
+  - 2.3.1
+branches:
+  only:
+    - master
+before_script:
+  - export TEST=test
+script:
+  - bundle exec rake test

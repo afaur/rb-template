@@ -1,0 +1,25 @@
+require "minitest/autorun"
+
+require_relative 'support/helper'
+#require_relative '../lib/something'
+
+# http://chriskottom.com/blog/2014/10/4-fantastic-ways-to-set-up-state-in-minitest/
+class TestCase < # Depends -- ActiveSupport::TestCase || Minitest::Test || ?
+
+  test "something" do
+    # Given
+    #   Setup
+
+    # When
+    #   Change
+
+    # Then
+    #   Check
+    assert_equal(
+      something,
+      something_else,
+      "Informative message about assertion"
+    )
+  end
+
+end

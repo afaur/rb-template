@@ -1,0 +1,11 @@
+Feature: The x should y and output them on_exit
+
+  In order to y
+  As a user
+  I want x to y
+
+  @spawn
+  Scenario: Doing something
+    Given I have something
+    When I start something
+    Then output should match something
